@@ -1,4 +1,4 @@
-procedure 'CreateApplicationFromDeploymentPackage-github', {
+procedure 'CreateApplicationFromDeploymentPackage-github-jon', {
   description = ''
   jobNameTemplate = ''
   projectName = 'Electric Cloud'
