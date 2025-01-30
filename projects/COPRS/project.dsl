@@ -1,6 +1,5 @@
 
 project 'COPRS', {
-  description = ''
   tracked = '1'
 
   application 'new-jon2', {
@@ -8,6 +7,7 @@ project 'COPRS', {
     applicationType = 'traditional'
 
     applicationTier 'Tier 1', {
+      description = ''
       applicationName = 'new-jon2'
       projectName = 'COPRS'
 
@@ -47,10 +47,12 @@ project 'COPRS', {
     applicationType = 'traditional'
 
     applicationTier 'Tier 1', {
+      description = ''
       applicationName = 'new-jon'
       projectName = 'COPRS'
 
       component 'new', {
+        description = ''
         applicationName = 'new-jon'
         pluginKey = 'EC-Artifact'
         reference = '0'
@@ -58,10 +60,12 @@ project 'COPRS', {
         // Custom properties
 
         property 'ec_content_details', {
+          description = ''
 
           // Custom properties
 
           property 'artifactName', value: 'com.accenture:client', {
+            description = ''
             expandable = '1'
             suppressValueTracking = '0'
           }
@@ -69,18 +73,21 @@ project 'COPRS', {
           filterList = ''
 
           property 'overwrite', value: 'update', {
+            description = ''
             expandable = '1'
             suppressValueTracking = '0'
           }
           pluginProcedure = 'Retrieve'
 
           property 'pluginProjectName', value: 'EC-Artifact', {
+            description = ''
             expandable = '1'
             suppressValueTracking = '0'
           }
           retrieveToDirectory = ''
 
           property 'versionRange', value: '', {
+            description = ''
             expandable = '1'
             suppressValueTracking = '0'
           }
@@ -273,6 +280,7 @@ Click on \'Procedure\'. Select the \'Project\' in which you have commands to run
         }
 
         task 'Stop if more than X%25 of tests fail', {
+          description = ''
           advancedMode = '0'
           allowOutOfOrderRun = '0'
           alwaysRun = '0'
@@ -380,6 +388,7 @@ If you wish to add manual testing after the automated tests, you can add another
     // Custom properties
 
     property 'ec_counters', {
+      description = ''
 
       // Custom properties
       pipelineCounter = '2'
