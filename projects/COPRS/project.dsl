@@ -1,5 +1,6 @@
 
 project 'COPRS', {
+  description = ''
   tracked = '1'
 
   application 'new-jon2', {
@@ -85,6 +86,45 @@ project 'COPRS', {
           }
         }
         ddd = 'ddd'
+      }
+    }
+
+    // Custom properties
+
+    property 'ec_deploy', {
+      description = ''
+
+      // Custom properties
+      ec_notifierStatus = '0'
+    }
+  }
+
+  application 'new-jon3', {
+    description = ''
+    applicationType = 'traditional'
+
+    applicationTier 'Tier 1', {
+      applicationName = 'new-jon3'
+      projectName = 'COPRS'
+
+      component 'JBossMC', {
+        description = 'This master component contains steps for deployment and undeployment of Java Applications to Redhat\'s JBoss Application Server.'
+        actualParameter = [
+          'artifactName': 'org.jon:springeight',
+          'artifactVersion': '4.0.0.',
+          'jbossCli': 'a',
+          'jbossConfig': 'a',
+          'jdbcConnection': '',
+          'jdbcDriver': '',
+          'jdbcPassword': '',
+          'jdbcUsername': '',
+          'sourceDirectory': 'asfasfas',
+          'warFileName': '',
+        ]
+        applicationName = 'new-jon3'
+        reference = '1'
+        sourceComponentName = 'JBossMC'
+        sourceProjectName = 'Electric Cloud'
       }
     }
 
