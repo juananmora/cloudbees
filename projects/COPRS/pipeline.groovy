@@ -13,7 +13,7 @@ All the tasks are created as placeholders. Click on the \'Information\' icon to 
     expansionDeferred = '1'
   }
 
-  stage 'Dev', {
+  stage 'Dev-jon', {
     pipelineName = 'pipeline-jon'
     task 'Checkout Source Code', {
       description = '''This is a placeholder task that can be used to check out source code from a SCM system. Click the \'Requires Definition\' link to open the Task Definition dialogue. You have two options:
