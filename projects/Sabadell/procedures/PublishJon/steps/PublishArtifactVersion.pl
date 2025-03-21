@@ -28,7 +28,7 @@ my $artifactVersion = $am->publish(
      excludePatterns => $params->{excludePatterns},
      dependentArtifactVersion => \@dependents});
 
-# Success!!!!! hola caracola!!!
+# Success!!!!! hola caracola!!! jajajajajaja
 
 # Print out the xml of the published artifactVersion.
 print $artifactVersion->xml() . "\n";

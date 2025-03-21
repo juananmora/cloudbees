@@ -4,8 +4,8 @@ component 'JBossMC', {
   actualParameter = [
     'artifactName': 'org.jon:springeight',
     'artifactVersion': '4.0.0.',
-    'jbossCli': 'a',
-    'jbossConfig': 'a',
+    'jbossCli': 'aaaaa',
+    'jbossConfig': 'aaaaaa',
     'jdbcConnection': '',
     'jdbcDriver': '',
     'jdbcPassword': '',
