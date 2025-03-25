@@ -1,0 +1,1 @@
+ectool setOutputParameter "SysID" "$[/myPipelineRuntime/incidentId]" 

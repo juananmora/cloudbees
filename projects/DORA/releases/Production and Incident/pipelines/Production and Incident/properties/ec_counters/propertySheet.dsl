@@ -1,0 +1,2 @@
+
+property 'ec_counters'
